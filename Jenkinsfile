@@ -12,6 +12,7 @@ pipeline {
         REGION = 'ap-northeast-2'
 
         GITCREDENTIAL = 'git_cre'
+        DOCKERHUBCREDENTIAL = 'docker_cre'
     }
     stages {
         stage('Checkout Github') {
